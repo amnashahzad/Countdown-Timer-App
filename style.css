@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #667eea 50%, #764ba2 50%);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: #ffffff;
+  }
+  
+  #timer {
+    font-size: 72px;
+    margin-top: 50px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ee7752 0%, #e73c7e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #timer span {
+    padding: 10px;
+    background: linear-gradient(135deg, #ee7752 0%, #e73c7e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #5a55da 0%, #6f3ac8 100%);
+  }
+  
